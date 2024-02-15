@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 35 px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.navInSpan {
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
