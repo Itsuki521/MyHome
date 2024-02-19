@@ -4,10 +4,15 @@
     scroll-behavior: smooth;
 }
 
-header {
-    height: 100px;
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    height: 15%;
     padding: 10px;
-    background-color: aqua;
+    background-color: #fcf6bd;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -19,13 +24,68 @@ header h1 {
 
 }
 
-nav {
+/* ---------- header ---------- */
+
+#nav {
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color: #a9def9;
+    border: 0px;
 }
 
 .navInSpan {
     font-size: 20px;
     padding: 10px 30px 10px 30px;
+}
+
+.firstNavWord {
+    background-color: #fcf6bd;
+}
+
+nav span:hover {
+    background-color: #fcf6bd;
+}
+
+/* ---------- nav ---------- */
+
+#aside {
+    float: right;
+    margin: 3%;
+
+}
+
+.asideImg {
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+    border: outset;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ---------- aside --------- */
+
+#motto {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0px 0px 0px;
+}
+
+#mottoTwo {
+    display: flex;
+    justify-content: end;
+    padding: 0px 10% 0px 0px;
+
+}
+
+.mottoFont {
+    font-size: 40px;
+}
+
+/* ---------- motto ---------- */
+
+.contentText {
+    margin: 10%;
 }
